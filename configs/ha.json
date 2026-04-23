@@ -1,0 +1,9 @@
+{
+  "cluster_name": "ips-lab",
+  "node_name": "node-1",
+  "mode": "fail-open",
+  "peers": [
+    "node-2"
+  ],
+  "heartbeats": {}
+}

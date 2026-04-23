@@ -1,0 +1,10 @@
+{
+  "malicious_ips": {
+    "203.0.113.10": {
+      "reason": "known lab scanner",
+      "severity": "high",
+      "source": "sample-local-intel"
+    }
+  },
+  "notes": "Sample local intel for demo and testing"
+}

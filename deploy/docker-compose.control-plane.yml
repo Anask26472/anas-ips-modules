@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  ips-control-plane:
+    build: .
+    command: python main.py --headless --bridge
+    environment:
+      IPS_ENABLE_BRIDGE: "1"
+      IPS_ENABLE_BLOCKING: "0"
+    ports:
+      - "5050:5050"
+    volumes:
+      - ./configs:/app/configs
+      - ./logs:/app/logs
+      - ./models:/app/models

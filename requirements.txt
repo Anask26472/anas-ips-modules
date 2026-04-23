@@ -1,0 +1,11 @@
+scapy
+numpy
+pandas
+scikit-learn
+joblib
+PyQt5
+flask
+torch
+psutil
+cryptography
+pytest

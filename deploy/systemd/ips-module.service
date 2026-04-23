@@ -1,0 +1,13 @@
+[Unit]
+Description=IPS Module (Headless)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/ips-module
+ExecStart=/opt/ips-module/venv/bin/python main.py --headless --bridge
+Restart=on-failure
+Environment=IPS_ENABLE_BRIDGE=1
+
+[Install]
+WantedBy=multi-user.target

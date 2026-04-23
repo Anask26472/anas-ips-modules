@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+logs/*.log
+logs/*.json
+quarantine/*.json
+build/
+dist/
+*.egg-info/
+.env
+.kaggle/
+kaggle.json

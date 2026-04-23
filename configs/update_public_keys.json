@@ -1,0 +1,9 @@
+{
+  "keys": [
+    {
+      "key_id": "release-key-1",
+      "public_key_b64": "REPLACE_WITH_BASE64_ED25519_PUBLIC_KEY"
+    }
+  ],
+  "note": "Keep only public verification keys in GitHub. Never commit private keys."
+}

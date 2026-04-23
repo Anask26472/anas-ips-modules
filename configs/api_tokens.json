@@ -1,0 +1,16 @@
+{
+  "tokens": {
+    "change-me": {
+      "role": "admin",
+      "name": "bootstrap-admin"
+    },
+    "viewer-demo": {
+      "role": "viewer",
+      "name": "viewer-demo"
+    },
+    "operator-demo": {
+      "role": "operator",
+      "name": "operator-demo"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anas-ips-modules"
+version = "1.1.0"
+description = "A host-based IPS module with GUI, machine learning and deep learning based traffic detection, and host-side mitigation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Anas", email = "anask26472@gmail.com" }
+]
+dependencies = [
+  "scapy",
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "joblib",
+  "PyQt5",
+  "flask",
+  "torch",
+  "psutil",
+  "cryptography"
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["ips*"]

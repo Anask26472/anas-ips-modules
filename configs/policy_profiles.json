@@ -1,0 +1,17 @@
+{
+  "active": "strict",
+  "profiles": {
+    "lab": {
+      "default_block_ttl": 300,
+      "max_blocked_ips": 50
+    },
+    "balanced": {
+      "default_block_ttl": 900,
+      "max_blocked_ips": 250
+    },
+    "strict": {
+      "default_block_ttl": 1800,
+      "max_blocked_ips": 500
+    }
+  }
+}

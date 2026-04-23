@@ -1,0 +1,33 @@
+{
+  "learning": false,
+  "samples": 1566,
+  "avg_packet_size": 894.69,
+  "top_protocols": [
+    [
+      "tcp",
+      1522
+    ],
+    [
+      "udp",
+      43
+    ],
+    [
+      "icmp",
+      1
+    ]
+  ],
+  "top_services": [
+    [
+      "http_443",
+      926
+    ],
+    [
+      "other",
+      634
+    ],
+    [
+      "http",
+      4
+    ]
+  ]
+}

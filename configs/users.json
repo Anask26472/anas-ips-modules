@@ -1,0 +1,16 @@
+{
+  "users": {
+    "admin": {
+      "role": "admin",
+      "display_name": "Bootstrap Admin",
+      "password_hash": "pbkdf2_sha256$200000$bootstrapsalt1$jhIRudfsJPDrfjKrlo2ThBXdKJH4NcWlgUVJyFVWTJ4=",
+      "must_change_password": true
+    },
+    "operator": {
+      "role": "operator",
+      "display_name": "Lab Operator",
+      "password_hash": "pbkdf2_sha256$200000$bootstrapsalt2$Pl01yaTp+jugbil4mUxNvzxxo73JmdvkL6ZBdCRUA9c=",
+      "must_change_password": true
+    }
+  }
+}
