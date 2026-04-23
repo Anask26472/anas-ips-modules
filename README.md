@@ -5,8 +5,6 @@ Developed by **Anas**
 This project is a **host-based Intrusion Prevention System (IPS) module** developed as a university security project.  
 It monitors live network traffic, detects suspicious behavior using **machine learning and deep learning**, and applies host-side response actions such as **blocking** and **throttling**.
 
-The module is designed so it can run independently for testing and demonstration, and later be integrated into a larger security tool with other modules.
-
 ---
 
 ## What this project does
